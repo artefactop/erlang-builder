@@ -3,7 +3,7 @@
 /opt/erlang_app/generate_release.sh
 
 name=$IMAGE_APP_NAME
-echo $name
+tagName=$IMAGE_TAG_NAME
 
 if [ -e "/var/run/docker.sock" ] && [ -e "./Dockerfile" ];
 then
