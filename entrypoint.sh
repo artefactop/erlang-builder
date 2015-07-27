@@ -8,8 +8,8 @@ tagName=$IMAGE_TAG_NAME
 if [ -e "/var/run/docker.sock" ] && [ -e "./Dockerfile" ];
 then
   # Default TAG_NAME to package name if not set explicitly
-  tagName=${tagName:-"$name":latest}
+  imageName="$name":${tagName:-latest}
 
   # Build the image from the Dockerfile in the package directory
-  docker build -t $tagName .
+  docker build -t $imageName .
 fi
