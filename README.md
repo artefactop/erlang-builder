@@ -2,7 +2,7 @@
 
 [![](https://badge.imagelayers.io/artefactop/erlang-builder:latest.svg)](https://imagelayers.io/?images=artefactop/erlang-builder:latest 'Get your own badge on imagelayers.io')
 
-Containerized build env for compiling an erlang application into a lightweight Docker container. Based on work of https://github.com/CenturyLinkLabs/golang-builder
+Containerized build environment for compiling an erlang application into a lightweight Docker container. Based on work of https://github.com/CenturyLinkLabs/golang-builder
 
 ## Requeriments
 
