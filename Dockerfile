@@ -1,4 +1,4 @@
-FROM artefactop/ubuntu-erlang:u14.04_e18.1
+FROM artefactop/ubuntu-erlang:u14.04_e18.2
 MAINTAINER Jose L. Navarro <jlnavarro111@gmail.com>
 
 VOLUME /opt/erlang_app
