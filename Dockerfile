@@ -1,4 +1,4 @@
-FROM artefactop/ubuntu-erlang:u14.04_e18.1
+FROM erlang:18
 MAINTAINER Jose L. Navarro <jlnavarro111@gmail.com>
 
 VOLUME /opt/erlang_app
@@ -24,5 +24,3 @@ ADD ./entrypoint.sh /
 
 # compile source
 ENTRYPOINT ["/entrypoint.sh"]
-
-

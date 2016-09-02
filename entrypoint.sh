@@ -5,7 +5,7 @@
 name=$IMAGE_APP_NAME
 tagName=$IMAGE_TAG_NAME
 
-if [ -e "/var/run/docker.sock" ] && [ -e "./Dockerfile" ];
+if [ -e "./Dockerfile" ];
 then
   # Default TAG_NAME to package name if not set explicitly
   imageName="$name":${tagName:-latest}
